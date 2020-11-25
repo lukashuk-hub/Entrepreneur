@@ -216,6 +216,13 @@ img {
     .menu_items {
         border-right: none ;
     }
+
+    .footer {
+        flex-direction: column;
+        .footer_logo {
+            padding-top: 10px;
+        }
+    }
 }
 
 @media(max-width: 768px) {

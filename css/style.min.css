@@ -254,6 +254,15 @@ img {
   .menu_items {
     border-right: none;
   }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer_logo {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
